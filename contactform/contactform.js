@@ -110,6 +110,10 @@ jQuery(document).ready(function($) {
       return a
     })
     var str = arrEmail.map((k) => `${encodeURIComponent(k.name)}=${encodeURIComponent(k.value)}`).join('&')
+    /**
+     * @todo montar a configuração usando seu e-mail e sua senha de app do GMAIL (Gerenciar sua conta google -> 
+     * Segurança -> (verificacao em duas etapas tem que estar ativada)) -> Senhas de app -> Selecionar app -> E-mail -> Outro -> adicionar um nome
+     */
     let emailsenha = "&email=seuemail@gmail.com&senha=senha16digitos"
 
     $('#btnMandar').hide();
