@@ -9,9 +9,21 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+/*--------------------------------------
+              COLOR THEME
+monochromatic
+  #943C34
+  #61423F
+->#471D19<-
+  #946460
+  #E05B4F
+ --------------------------------------*/
+
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  /* background-color: #c0483d7a; */
+  background-color: #471D19;
+  /* color: #4e4e4e; */
+  color: whitesmoke;
 }
 
 h1,
@@ -20,7 +32,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  /* color: #1e1e1e; */
+  color: whitesmoke;
 }
 
 a {
@@ -90,7 +103,8 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  /* background-color: #0078ff; */
+  background-color: #946460;
 }
 
 .overlay-mf {
@@ -137,7 +151,8 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  /* color: #1e1e1e; */
+  color: #471D19;
   font-size: 1.1rem;
 }
 
@@ -154,7 +169,7 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: whitesmoke;
 }
 
 .line-mf {
@@ -179,7 +194,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #471D19;
   width: 100px;
   bottom: -12px;
 }
@@ -193,7 +208,8 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #946460;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -216,14 +232,14 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px whitesmoke;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
   background-color: #0078ff;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #16944E;
   transition: all 500ms ease;
 }
 
@@ -260,7 +276,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px whitesmoke;
   display: block;
 }
 
@@ -326,7 +342,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #61423F;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -475,32 +491,34 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #61423F;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  /* color: #0078ff; */
+  color: whitesmoke;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: whitesmoke;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: whitesmoke;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: whitesmoke;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: whitesmoke;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -685,7 +703,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: whitesmoke;
 }
 
 .skill-mf .progress {
@@ -697,7 +715,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #942E25;
 }
 
 /*======================================
@@ -705,22 +723,16 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
 }
 
-.service-box:hover .ico-circle {
-  transition: all 500ms ease;
-  color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
-}
-
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  /* color: #1e1e1e; */
+  color: whitesmoke;
 }
 
 .service-box .ico-circle {
@@ -728,16 +740,39 @@ a:hover {
   font-size: 4rem;
 }
 
+.service-box:hover .ico-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: black;
+  box-shadow: 0 0 0 10px #16944E;
+}
+
 .service-box .s-title {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
+  color: rgba(245, 245, 245, 0.753);
+}
+
+.service-box:hover .s-title {
+  transition: all 1s ease;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .4rem 0;
+  color: #E05B4F;
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: black;
 }
+
+.service-box:hover .s-description {
+  transition: all 1s ease;
+  color: rgba(245, 245, 245, 0.514);
+}
+
 
 /*======================================
 //--//-->   COUNTER
@@ -756,7 +791,13 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #E05B4F;
+}
+
+.counter-ico:hover .ico-circle {
+  transition: all 500ms ease;
+  line-height: 2.1;
+  box-shadow: 0 0 0 10px #f32816;
 }
 
 .counter-num .counter {
@@ -799,7 +840,7 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  /* color: #0078ff; */
 }
 
 .work-content .w-like {
@@ -1023,7 +1064,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color: whitesmoke;
   top: 20px;
 }
 
@@ -1034,7 +1075,7 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
+  background-color: whitesmoke;
   border-color: #0078ff;
   border-radius: 0;
   padding-left: 20px;
@@ -1156,7 +1197,7 @@ footer .credits a {
 }
 
 .button-a {
-  background-color: #0078ff;
+  background-color: whitesmoke;
   color: #fff;
   border-color: #cde1f8;
 }
