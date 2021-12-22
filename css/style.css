@@ -175,7 +175,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #946460;
   margin: 0 auto;
 }
 
@@ -237,11 +237,12 @@ a:hover {
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #471D19;
   color: #fff;
   box-shadow: 0 0 0 3px #16944E;
   transition: all 500ms ease;
 }
+
 
 /*------/ Ul resect /------*/
 
@@ -718,6 +719,11 @@ a:hover {
   background-color: #942E25;
 }
 
+#profile-pic {
+  border: 1px solid #942E25;
+  border-radius: 8px;
+}
+
 /*======================================
 //--//-->   SERVICES
 ======================================*/
@@ -856,9 +862,10 @@ a:hover {
 .work-content .w-like .num-like {
   font-size: .7rem;
 }
-
+/* Work Title */
 .w-title {
   font-size: 1.2rem;
+  color: #471D19;
 }
 
 /*======================================
@@ -1198,8 +1205,12 @@ footer .credits a {
 
 .button-a {
   background-color: whitesmoke;
-  color: #fff;
+  color: #471D19;
   border-color: #cde1f8;
+}
+
+.button-a:hover {
+  background-color: #471D19;
 }
 
 .button-big {
@@ -1217,6 +1228,7 @@ footer .credits a {
   line-height: 1.5;
   border-radius: .3rem;
 }
+
 
 @media (min-width: 577px) {
   .counter-box {
