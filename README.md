@@ -20,12 +20,12 @@ Baseado no modelo <a>https://github.com/dimassulz/devfolio-senai</a>
 	<li>Icones de Serviço</li>
 	<li>Trabalhos</li>
 	<li>Texto do Contato</li>
+	<li>Favicon</li>
 </ul>
 
 <h2>a atualizar</h2>
 <h4>Design:</h4>
 <ol>
-	<li>Favicon</li>
 	<li>Família de fontes</li>
 	<li>Transições :hover</li>
 	<li>Barra de progresso de skill</li>
